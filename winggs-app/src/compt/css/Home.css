@@ -1,0 +1,41 @@
+.home-images{
+    position: absolute;
+    width: 50vw;
+
+}
+
+.home{
+    position: relative;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.hmg1{
+    width: 65vw;
+    left:0;
+}
+.hmg2{
+    right: 0;
+    z-index: -999;
+    width: 100vw;
+}
+
+.homeFooter{
+    width: 80vw;
+    height: 50px;
+    background-color: #ff9600;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    align-self: flex-end;
+    margin-top: 60px;
+    bottom: 50px;
+    /* padding: 50px; */
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
